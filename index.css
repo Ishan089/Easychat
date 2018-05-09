@@ -10,11 +10,19 @@
 	height:auto;
 }
 
-@media screen and (max-width: 400px){
-	.green-back{
-		background-color: #1ebea5;
-		
-		width:0vw;
+.shift{
+	margin-left: 0vw;
+}
+
+@media screen and (max-width:320px){
+	.shift{
+		margin-left: 70vw;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px){
+	.shift{
+		margin-left: 0px;	
 	}
 }
 .mes{
